@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaStar, FaHeart, FaRocket, FaRegSmileBeam , FaHandsHelping} from 'react-icons/fa';
-import Footer from './footer';
+
 
 export default function Welcome() {
   return (
@@ -111,7 +111,8 @@ export default function Welcome() {
       />
       <div>
         <p className="text-lg text-gray-700">
-          &quot;Makeup Magic transformed my beauty routine! The consultation was personalized, and the results were stunning.&quot;
+        &quot;Makeup Magic transformed my beauty routine! The consultation was personalized, and the results were stunning.&quot;
+
         </p>
         <p className="font-semibold text-pink-600">Ava</p>
       </div>

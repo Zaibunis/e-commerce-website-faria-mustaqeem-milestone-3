@@ -93,64 +93,60 @@ export default function Welcome() {
             </div>
           </div>
         </section>
-     {/* Customer Testimonial Section */}
-<section className="max-w-6xl mx-auto p-12 bg-gradient-to-br from-pink-100 via-white to-pink-300 rounded-xl shadow-lg mb-24 relative text-center">
-  <h2 className="text-4xl font-bold text-pink-600 mb-6">What Our Customers Say</h2>
-  <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
-    
-    {/* Testimonial 1 */}
-    <div className="flex items-center space-x-6">
-      <Image
-        src="/girl.jpeg"
-        alt="Customer 1"
-        width={100}
-        height={100}
-        className="rounded-full object-cover shadow-md"
-      />
-      <div>
-        <p className="text-lg text-gray-700">
-          &quot;Makeup Magic transformed my beauty routine! The consultation was personalized, and the results were stunning.&quot;
-        </p>
-        <p className="font-semibold text-pink-600">Ava</p>
-      </div>
-    </div>
+     
+        {/* Customer Testimonial Section */}
+        <section className="max-w-6xl mx-auto p-12 bg-gradient-to-br from-pink-100 via-white to-pink-300 rounded-xl shadow-lg mb-24 relative text-center">
+          <h2 className="text-4xl font-bold text-pink-600 mb-6">What Our Customers Say</h2>
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8">
+            <div className="flex items-center space-x-6">
+              <Image
+                src="/girl.jpeg"
+                alt="Customer 1"
+                width={100}
+                height={100}
+                className="rounded-full object-cover shadow-md"
+              />
+              <div>
+                <p className="text-lg text-gray-700">
+                  &quot;Makeup Magic transformed my beauty routine! The consultation was personalized, and the results were stunning.&quot;
+                </p>
+                <p className="font-semibold text-pink-600">Ava</p>
+              </div>
+            </div>
 
-    {/* Testimonial 2 */}
-    <div className="flex items-center space-x-6">
-      <Image
-        src="/i.jpeg"
-        alt="Customer 2"
-        width={100}
-        height={100}
-        className="rounded-full object-cover shadow-md"
-      />
-      <div>
-        <p className="text-lg text-gray-700">
-          &quot;The skincare treatment left my skin glowing! I feel so refreshed, and I can't wait for my next session.&quot;
-        </p>
-        <p className="font-semibold text-pink-600">Emily</p>
-      </div>
-    </div>
+            <div className="flex items-center space-x-6">
+              <Image
+                src="/i.jpeg"
+                alt="Customer 2"
+                width={100}
+                height={100}
+                className="rounded-full object-cover shadow-md"
+              />
+              <div>
+                <p className="text-lg text-gray-700">
+                  &quot;The skincare treatment left my skin glowing! I feel so refreshed, and I can&#39;t wait for my next session.&quot;
+                </p>
+                <p className="font-semibold text-pink-600">Emily</p>
+              </div>
+            </div>
 
-    {/* Testimonial 3 */}
-    <div className="flex items-center space-x-6">
-      <Image
-        src="/ik.jpeg"
-        alt="Customer 3"
-        width={100}
-        height={100}
-        className="rounded-full object-cover shadow-md"
-      />
-      <div>
-        <p className="text-lg text-gray-700">
-          &quot;I attended a beauty workshop, and it was amazing! The tips and tricks I learned have transformed my makeup routine.&quot;
-        </p>
-        <p className="font-semibold text-pink-600">Hannah</p>
-      </div>
-    </div>
-  </div>
-</section>
-
+            <div className="flex items-center space-x-6">
+              <Image
+                src="/ik.jpeg"
+                alt="Customer 3"
+                width={100}
+                height={100}
+                className="rounded-full object-cover shadow-md"
+              />
+              <div>
+                <p className="text-lg text-gray-700">
+                  &quot;I attended a beauty workshop, and it was amazing! The tips and tricks I learned have transformed my makeup routine.&quot;
+                </p>
+                <p className="font-semibold text-pink-600">Hannah</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-pink-500 to-pink-700 text-white text-center py-16 px-8 md:py-20 md:px-10 rounded-lg shadow-lg relative">

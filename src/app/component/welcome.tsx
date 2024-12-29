@@ -125,7 +125,8 @@ export default function Welcome() {
               />
               <div>
                 <p className="text-lg text-gray-700">
-                  "The skincare treatment left my skin glowing! I feel so refreshed, and I can't wait for my next session."
+                "The skincare treatment left my skin glowing! I feel so refreshed, and I can&#39;t wait for my next session."
+
                 </p>
                 <p className="font-semibold text-pink-600">Emily</p>
               </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useParams } from 'next/navigation'; // Use useParams for dynamic route parameters
 import React, { useEffect, useState } from 'react';
 import Navbar from "../../navbar"; // Adjust path if needed
@@ -116,6 +117,8 @@ export default function ProductDetail() {
   return (
     <div>
       <Navbar />
+      <br/>
+       
       <main className="min-h-screen p-8">
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left side: Cart Summary */}

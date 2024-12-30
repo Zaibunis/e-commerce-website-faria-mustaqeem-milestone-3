@@ -89,6 +89,19 @@ export default function HomePage() {
   return (
     <div>
       <Navbar />
+      <section className="bg-pink-50 py-12">
+      <div className="container mx-auto text-center px-6 bg-pink-600 text-white py-12 rounded-lg shadow-lg">
+        <h2 className="text-4xl font-extrabold mb-4 hover:scale-110 transition-transform duration-300">
+          Limited Time Sale on Makeup Products!
+        </h2>
+        <p className="text-lg mb-8">
+          Discover your favorite beauty products at up to <span className="font-bold">50% off</span>. Don’t miss out on this exclusive offer.
+        </p>
+        <Link href="/shop" className="text-lg font-medium underline hover:no-underline transition duration-300">
+          Shop the Sale Now
+        </Link>
+      </div>
+    </section>
       <main className="min-h-screen bg-gradient-to-b from-pink-100 via-white to-gray-50 p-8">
         <h1 className="text-6xl font-extrabold text-center text-gray-800 mt-10 mb-16">Our Products</h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">

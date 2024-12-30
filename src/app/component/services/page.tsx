@@ -8,42 +8,42 @@ import Footer from '../footer';
 export default function Services() {
   const services = [
     {
-      id: 'luxury-facials',
+      id: 1,  // Numeric ID
       icon: <FaSpa className="text-pink-500 text-6xl mb-4" />,
       title: 'Luxury Facials',
       description:
         'Experience rejuvenation with our premium facial treatments designed to bring out your natural glow.',
     },
     {
-      id: 'makeup-artistry',
+      id: 2,  // Numeric ID
       icon: <FaPaintBrush className="text-purple-500 text-6xl mb-4" />,
       title: 'Makeup Artistry',
       description:
         'From everyday looks to special occasions, our makeup artists ensure you look stunning.',
     },
     {
-      id: 'wellness-coaching',
+      id: 3,  // Numeric ID
       icon: <FaHeartbeat className="text-red-500 text-6xl mb-4" />,
       title: 'Wellness Coaching',
       description:
         'Achieve balance and vitality with personalized coaching for your mind and body.',
     },
     {
-      id: 'eco-friendly-skincare',
+      id: 4,  // Numeric ID
       icon: <FaLeaf className="text-green-500 text-6xl mb-4" />,
       title: 'Eco-Friendly Skincare',
       description:
         'Discover our range of sustainable skincare products that care for you and the planet.',
     },
     {
-      id: 'diamond-spa',
+      id: 5,  // Numeric ID
       icon: <FaGem className="text-blue-500 text-6xl mb-4" />,
       title: 'Diamond Spa',
       description:
         'Indulge in a luxurious spa experience that rejuvenates your body and mind.',
     },
     {
-      id: 'energy-therapy',
+      id: 6,  // Numeric ID
       icon: <FaBolt className="text-yellow-500 text-6xl mb-4" />,
       title: 'Energy Therapy',
       description:
@@ -75,7 +75,7 @@ export default function Services() {
                 <h3 className="text-2xl font-bold text-pink-600 mb-4">{service.title}</h3>
                 <p className="text-gray-700 mb-6">{service.description}</p>
                 <Link
-                  href={`/services/${service.id}`} // Navigate to the detailed page
+                  href={`/component/services/${service.id}`} // Navigate to the detailed page with numeric id
                   className="inline-block bg-pink-500 text-white py-2 px-6 rounded-full font-semibold shadow-lg hover:bg-pink-600 hover:scale-105 transition-transform duration-300"
                 >
                   Learn More
